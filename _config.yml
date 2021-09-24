@@ -6,7 +6,7 @@ base_info:
   author: Welkin
   url: https://thinkful.ink
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img:
+  logo_img: logo_1.svg
 
 
 # ---------------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ style:
   avatar: /images/author.png
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: /images/logo_1.svg
 
   # Article image align position, value: left | center
   article_img_align: left
@@ -38,7 +38,7 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
     description: Keep writing and Keep loving.
 
@@ -72,8 +72,8 @@ social_contact:
 menu:
   Home: /
   Archives: /archives
-  # Categories: /categories
-  # Tags: /tags
+  Categories: /categories
+  Tags: /tags
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -124,7 +124,7 @@ code_copy:
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
   number: false
